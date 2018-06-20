@@ -10,6 +10,7 @@
     "@types/react-router-dom": "^4.2.7",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-postcss-sass": "^1.0.22",
     "gatsby-plugin-react-css-modules": "^1.0.15",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
