@@ -2,24 +2,24 @@ import * as React from 'react';
 import { Header } from '../components/Header/index';
 
 interface IndexPageProps {
-  title: string,
-  value: number
+  headerTitle: string,
+  headerValue: number
 }
 
 const IndexPage: React.SFC<IndexPageProps> = (props) => {
   return (
     <div>
       <Header
-        title={props.title}
-        value={props.value}
+        title={props.headerTitle}
+        value={props.headerValue}
       />
     </div>
   )
 }
 
 IndexPage.defaultProps = {
-  title: "What is a header anyway",
-  value: 42
+  headerTitle: "What is a header anyway",
+  headerValue: 42
 }
 
 export default IndexPage;
