@@ -1,0 +1,10 @@
+@import "~@/styles/module-import.global";
+.header {
+    color: red;
+    background: $seafoam;
+    min-height: 20vh;
+}
+
+p {
+    text-align: center;
+}
