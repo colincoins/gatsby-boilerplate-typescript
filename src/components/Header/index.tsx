@@ -7,6 +7,10 @@ export interface HeaderProps {
 }
 
 export class Header extends React.PureComponent<HeaderProps> {
+  static defaultProps = {
+    title: 'this is a default prop',
+    value: 100
+  }
   render() {
     return (
       <div className={styles['header']}>
