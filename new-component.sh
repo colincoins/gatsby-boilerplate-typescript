@@ -21,7 +21,7 @@ echo "      </div>">>index.tsx &&
 echo "    );">>index.tsx &&
 echo "  }">>index.tsx &&
 echo "}">>index.tsx &&
-echo "@import "~@/styles/module-import.global";">>page.module.scss &&
+echo '@import "~@/styles/module-import.global";'>>page.module.scss &&
 echo ".$1 {">>page.module.scss &&
 echo "    color: black;">>page.module.scss &&
 echo "}">>page.module.scss &&
