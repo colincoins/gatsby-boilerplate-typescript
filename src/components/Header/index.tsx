@@ -9,13 +9,13 @@ export interface HeaderProps {
 const Header: SFC<HeaderProps> = (props) => {
   return (
     <div className={styles['header']}>
-      <h1>
+      <p className={styles['header-p']}>
         {props.title}
         <br />
         the value is {props.value}
-      </h1>
+      </p>
     </div>
-  );
+  )
 }
 
 Header.defaultProps = {

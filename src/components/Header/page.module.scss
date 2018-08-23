@@ -3,9 +3,12 @@
     color: whitesmoke;
     background: $seafoam;
     min-height: 20vh;
+    p {
+        margin: 0;
+        text-align: center;
+    }
 }
 
-h1 {
-    margin: 0;
-    text-align: center;
+.header-p {
+    color: red;
 }
