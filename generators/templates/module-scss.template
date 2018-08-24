@@ -1,8 +1,6 @@
 @import "~@/styles/module-import.global";
-.header {
-    color: whitesmoke;
-    background: $seafoam;
-    min-height: 20vh;
+.{{name}} {
+    color: white;
     p {
         margin: 0;
         text-align: center;
