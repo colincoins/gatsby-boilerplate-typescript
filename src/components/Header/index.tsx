@@ -2,8 +2,8 @@ import React, { SFC } from 'react';
 import styles from './page.module.scss';
 
 export interface HeaderProps {
-  title?: string;
-  value?: number;
+  title: string;
+  value: number;
 }
 
 const Header: SFC<HeaderProps> = (props) => {
