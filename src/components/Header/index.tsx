@@ -7,13 +7,15 @@ export interface HeaderProps {
 }
 
 const Header: SFC<HeaderProps> = (props) => {
-  <div className={styles['header']}>
-    <p>
-      {props.title}
-      <br />
-      the value is {props.value}
-    </p>
-  </div>
+  return (
+    <div className={styles['header']}>
+      <p>
+        {props.title}
+        <br />
+        the value is {props.value}
+      </p>
+    </div>
+  )
 }
 
 Header.defaultProps = {
